@@ -1,0 +1,23 @@
+{
+  "name": "api-crud",
+  "version": "1.0.0",
+  "main": "app.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config app.mjs",
+    "dev": "nodemon -r dotenv/config app.mjs"
+  },
+  "author": "Adailton",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "type": "module"
+  }
+}
